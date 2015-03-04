@@ -1,0 +1,20 @@
+﻿Build started 3/3/2015 9:51:54 PM.
+     1>Project "C:\Users\Marvin\Desktop\2501GameKeyesAndNehring\2501GameKeyesAndNehring\2501Game\2501Game\2501Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\BugsBunny\Desktop\April 7th\2501Game\2501Game\SDL2_mixer\include" /I"C:\Users\BugsBunny\Desktop\April 7th\2501Game\2501Game\SDL2\include" /I"C:\Users\BugsBunny\Desktop\April 7th\2501Game\2501Game\Inc" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Engine.cpp Hud.cpp Menu.cpp Rect.cpp Text.cpp
+         Text.cpp
+     1>c:\users\marvin\desktop\2501gamekeyesandnehring\2501gamekeyesandnehring\2501game\2501game\Text.h(5): fatal error C1083: Cannot open include file: 'SpriteFont.h': No such file or directory
+         Rect.cpp
+     1>c:\users\marvin\desktop\2501gamekeyesandnehring\2501gamekeyesandnehring\2501game\2501game\Rect.h(5): fatal error C1083: Cannot open include file: 'PrimitiveBatch.h': No such file or directory
+         Menu.cpp
+     1>c:\users\marvin\desktop\2501gamekeyesandnehring\2501gamekeyesandnehring\2501game\2501game\Text.h(5): fatal error C1083: Cannot open include file: 'SpriteFont.h': No such file or directory
+         Hud.cpp
+     1>c:\users\marvin\desktop\2501gamekeyesandnehring\2501gamekeyesandnehring\2501game\2501game\Hud.h(8): fatal error C1083: Cannot open include file: 'SpriteBatch.h': No such file or directory
+         Engine.cpp
+     1>c:\users\marvin\desktop\2501gamekeyesandnehring\2501gamekeyesandnehring\2501game\2501game\Rect.h(5): fatal error C1083: Cannot open include file: 'PrimitiveBatch.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Marvin\Desktop\2501GameKeyesAndNehring\2501GameKeyesAndNehring\2501Game\2501Game\2501Game.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.69
